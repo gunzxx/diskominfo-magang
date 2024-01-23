@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.bold, .fw-700{
+    font-weight: 700;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+
+nav{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 6px double #000;
+    padding: 10px 0;
+}
+
+.nav-logo{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    /* width: 100px; */
+    height: 100%;
+}
+
+.pemkab-logo{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav-body{
+    text-align: center;
+}
+
+.nav-body p{
+    font-weight: 600;
+}
+
+
+table{
+    max-width: 100% !important;
+}
+/* table td, table td *{
+    font-weight: 600;
+} */
+
+
+.kop-surat{
+    padding: 30px 0;
+}
+
+.kop-surat td{
+    min-width: 200px;
+}
+
+
+.tabel-zakat{
+    border-collapse: collapse;
+}
+.tabel-zakat td, .tabel-zakat th{
+    border: 1px solid #000;
+    padding: 10px 10px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: end;
+    padding: 50px 0;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 0 150px;
+}
