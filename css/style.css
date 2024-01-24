@@ -65,6 +65,9 @@ table{
 .tabel-zakat{
     border-collapse: collapse;
 }
+.tabel-zakat th{
+    font-size: 14px;
+}
 .tabel-zakat td, .tabel-zakat th{
     border: 1px solid #000;
     padding: 10px 10px;
